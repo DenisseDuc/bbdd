@@ -49,15 +49,21 @@ foreign key (asignatura, estudio, curso) references Asignatura(id,est,curso) on 
 insert into estudio values (1,"DAM");
 insert into curso values ("19-20");
 insert into modulo values (1,"BD",5);
+
+insert into curso values ("18-19");
+insert into modulo values (2,"GBD",5);
+insert into alumno values (2,"Rocio","234","2000-2-2");
 insert into asignatura values (1,1,"19-20");
 insert into alumno values (1,"Pepe", "123", "2000-1-1");
 insert into estudio values (2,"ASIR");
+
 
 
 /*No debe aceptar estos:*/
 insert into asiste values (1,1,2,"18-19");
 insert into asiste values (2,1,2,"18-19");
 
+/*Añadiendo algunos cambios al repositorio*/
 
 
 
