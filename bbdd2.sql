@@ -58,7 +58,7 @@ insert into alumno values (2,"Rocio","234","2000-2-2");
 insert into asiste values (1,1,2,"18-19");
 insert into asiste values (2,1,2,"18-19");
 
-/*Añadiendo cambios al repositorio*/
+/*Añadiendo algunos cambios al repositorio*/
 
 
 
